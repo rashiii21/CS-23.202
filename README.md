@@ -1,5 +1,6 @@
 [Program 1 : Create a class with four methods - Addition, Subtraction, Multiplication, Division.
-            Now, test all four methods in public static void main.](#xyz)
+            Now, test all four methods in public static void main.](#Create a class with four methods - Addition, Subtraction, Multiplication, Division.
+            Now, test all four methods in public static void main.)
 ```
 class Calculator {
 
@@ -38,7 +39,8 @@ class Calculator {
 
 <img width="338" height="177" alt="image" src="https://github.com/user-attachments/assets/483771ac-eb50-40d1-bea8-63c84051aef9" />
 
-## xyz 
+## Create a class with four methods - Addition, Subtraction, Multiplication, Division.
+            Now, test all four methods in public static void main.
 
 ```
 class LoopTest {
