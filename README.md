@@ -490,6 +490,6 @@ class OneDArray {
         obj.reverse();
     }
 }
-<img width="548" height="204" alt="image" src="https://github.com/user-attachments/assets/95ef2df2-e4cd-47af-b200-be9a61e8aabd" />
+```
 <img width="548" height="204" alt="image" src="https://github.com/user-attachments/assets/55c0ebab-1666-4547-83e2-403898f6883f" />
 ```
