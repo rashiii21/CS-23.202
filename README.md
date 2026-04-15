@@ -1,7 +1,6 @@
 [Program 1 : Create a class with four methods - Addition, Subtraction, Multiplication, Division.
 Now, test all four methods in public static void main.](#Program1)
-[Program 2 : Create a class with four methods - Addition, Subtraction, Multiplication, Division.
-Now, test all four methods in public static void main.](#program2)
+
 ## Program1
 ```
 class Calculator {
@@ -42,7 +41,7 @@ class Calculator {
 <img width="338" height="177" alt="image" src="https://github.com/user-attachments/assets/483771ac-eb50-40d1-bea8-63c84051aef9" />
 
 ```
-##pro
+
 class LoopTest {
     public static void main(String[] args) {
 
@@ -72,7 +71,6 @@ class LoopTest {
 
 ```
 
-## program2
 
 import java.util.Scanner;
 
@@ -437,64 +435,229 @@ class OneDArray {
         obj.reverse();
     }
 }
+```
+<img width="429" height="320" alt="image" src="https://github.com/user-attachments/assets/46644926-4dd2-4d61-a70a-6876434b58fb" />
+
+```
 import java.util.Scanner;
 
-class OneDArray {
-    int arr[];
-    int n;
+class MatrixOperations {
+    int a[][], b[][];
+    int r, c;
 
-    // Input method
+    // Input matrices
     void input() {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter size of array: ");
-        n = sc.nextInt();
 
-        arr = new int[n];
-        System.out.println("Enter elements:");
+        System.out.print("Enter rows and columns: ");
+        r = sc.nextInt();
+        c = sc.nextInt();
 
-        for (int i = 0; i < n; i++) {
-            arr[i] = sc.nextInt();
-        }
-    }
+        a = new int[r][c];
+        b = new int[r][c];
 
-    // Output1: Print normally
-    void output1() {
-        System.out.println("Array elements:");
-        for (int i = 0; i < n; i++) {
-            System.out.print(arr[i] + " ");
-        }
-        System.out.println();
-    }
-
-    // Output2: Print even elements
-    void output2() {
-        System.out.println("Even elements:");
-        for (int i = 0; i < n; i++) {
-            if (arr[i] % 2 == 0) {
-                System.out.print(arr[i] + " ");
+        System.out.println("Enter first matrix:");
+        for (int i = 0; i < r; i++) {
+            for (int j = 0; j < c; j++) {
+                a[i][j] = sc.nextInt();
             }
         }
-        System.out.println();
+
+        System.out.println("Enter second matrix:");
+        for (int i = 0; i < r; i++) {
+            for (int j = 0; j < c; j++) {
+                b[i][j] = sc.nextInt();
+            }
+        }
     }
 
-    // Reverse method
-    void reverse() {
-        System.out.println("Reversed array:");
-        for (int i = n - 1; i >= 0; i--) {
-            System.out.print(arr[i] + " ");
+    // Addition
+    void addition() {
+        System.out.println("Matrix Addition:");
+        for (int i = 0; i < r; i++) {
+            for (int j = 0; j < c; j++) {
+                System.out.print((a[i][j] + b[i][j]) + " ");
+            }
+            System.out.println();
         }
-        System.out.println();
+    }
+
+    // Transpose of first matrix
+    void transpose() {
+        System.out.println("Transpose of first matrix:");
+        for (int i = 0; i < c; i++) {
+            for (int j = 0; j < r; j++) {
+                System.out.print(a[j][i] + " ");
+            }
+            System.out.println();
+        }
+    }
+
+    // Sum of rows
+    void sumRows() {
+        System.out.println("Sum of rows:");
+        for (int i = 0; i < r; i++) {
+            int sum = 0;
+            for (int j = 0; j < c; j++) {
+                sum += a[i][j];
+            }
+            System.out.println("Row " + i + ": " + sum);
+        }
+    }
+
+    // Sum of columns
+    void sumColumns() {
+        System.out.println("Sum of columns:");
+        for (int j = 0; j < c; j++) {
+            int sum = 0;
+            for (int i = 0; i < r; i++) {
+                sum += a[i][j];
+            }
+            System.out.println("Column " + j + ": " + sum);
+        }
+    }
+
+    // Sum of diagonal
+    void sumDiagonal() {
+        int sum = 0;
+        for (int i = 0; i < r; i++) {
+            sum += a[i][i]; // main diagonal
+        }
+        System.out.println("Sum of diagonal: " + sum);
     }
 
     // Main method
     public static void main(String[] args) {
-        OneDArray obj = new OneDArray();
+        MatrixOperations obj = new MatrixOperations();
         obj.input();
-        obj.output1();
-        obj.output2();
-        obj.reverse();
+        obj.addition();
+        obj.transpose();
+        obj.sumRows();
+        obj.sumColumns();
+        obj.sumDiagonal();
+    }
+}
+
+```
+<img width="489" height="624" alt="image" src="https://github.com/user-attachments/assets/3cc112d5-027d-48f5-ba81-4296038f6c66" />
+```
+import java.util.Scanner;
+
+class Factorial {
+    public static void main(String[] args) {
+        int n, fact = 1;
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        n = sc.nextInt();
+
+        for (int i = 1; i <= n; i++) {
+            fact *= i;
+        }
+
+        System.out.println("Factorial = " + fact);
     }
 }
 ```
-<img width="548" height="204" alt="image" src="https://github.com/user-attachments/assets/55c0ebab-1666-4547-83e2-403898f6883f" />
+<img width="374" height="136" alt="image" src="https://github.com/user-attachments/assets/fd13a424-ace1-4121-806b-04a4c5a6b334" />
 ```
+import java.util.Scanner;
+
+class Armstrong {
+    public static void main(String[] args) {
+        int n, temp, rem, sum = 0;
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        n = sc.nextInt();
+
+        temp = n;
+
+        while (n > 0) {
+            rem = n % 10;
+            sum += rem * rem * rem;
+            n = n / 10;
+        }
+
+        if (temp == sum)
+            System.out.println("Armstrong Number");
+        else
+            System.out.println("Not an Armstrong Number");
+    }
+}
+```
+
+<img width="408" height="152" alt="image" src="https://github.com/user-attachments/assets/5581de92-4082-465c-be22-c0cbced22333" />
+
+```
+import java.util.Scanner;
+
+class Palindrome {
+    public static void main(String[] args) {
+        int n, rev = 0, rem, temp;
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        n = sc.nextInt();
+
+        temp = n;
+
+        while (n > 0) {
+            rem = n % 10;
+            rev = rev * 10 + rem;
+            n = n / 10;
+        }
+
+        if (temp == rev)
+            System.out.println("Palindrome Number");
+        else
+            System.out.println("Not a Palindrome Number");
+    }
+}
+
+```
+
+<img width="463" height="141" alt="image" src="https://github.com/user-attachments/assets/d2924a7e-9758-4123-ad7d-3baf239ff509" />
+
+```
+import java.util.Scanner;
+
+class Fibonacci {
+    public static void main(String[] args) {
+        int n, a = 0, b = 1, c;
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter number of terms: ");
+        n = sc.nextInt();
+
+        System.out.println("Fibonacci Series:");
+        System.out.print(a + " " + b + " ");
+
+        for (int i = 3; i <= n; i++) {
+            c = a + b;
+            System.out.print(c + " ");
+            a = b;
+            b = c;
+        }
+    }
+}
+```
+
+<img width="924" height="157" alt="image" src="https://github.com/user-attachments/assets/915217e5-358f-4d8e-9474-d8476acf0675" />
+```
+class Pattern {
+    public static void main(String[] args) {
+
+        for (int i = 1; i <= 5; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+}
+
+```
+<img width="483" height="210" alt="image" src="https://github.com/user-attachments/assets/5f512385-dfa3-4dcd-b598-a7b701d3d4c2" />
+```
+
