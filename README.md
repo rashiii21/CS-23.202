@@ -3,6 +3,35 @@ Now, test all four methods in public static void main.](#Program1)
 
 [Program 2 : Write a Program to test for loop, while loop, do while loop for Problem 1 ](#Program2)
 
+[Program 3 : Write a Program using if-else to print the grade of input marks.](#Program3)
+
+[Program 4 : Write a Program in Java using objects and classes to get the square of stars for dynamic width and height.](#Program4)
+
+[Program 5 : Write a Program in Java using objects and classes to get the pyramid of stars or triangle of stars.](#Program5)
+
+[Program 6 : Write a Program in Java using OOPs concept for the addition of two distances where each distance is given in metres and centimetres.](#Program6)
+
+[Program 7 : Write a Program in Java using OOPs concept for the addition of two distances where each distance is given in metres, centimetres, and millimeters.](#Program7)
+
+[Program 8 : Write a Program in Java using OOPs concept for the addition of two times, where each time is given in hours and minutes.](#Program8)
+
+[Program 9 : Write a Program in Java using OOPs concept for the addition of two times, where each time is given in hours, minutes, and seconds.](#Program9)
+
+[Program 10 : Write a class that has four methods for a 1-dimensional array. (Input, output 1,out2, reverse).](#Program10)
+
+[Program 11 :  Write a class with multiple methods to perform matrix operations (transpose, addition, sum of rows, sum of columns, sum of diagonal).](#Program11)
+
+[Program 12a :  Collect the code from the internet for any five programs in the C language and convert them to Java. (Factorial).](#Program12a)
+
+[Program 12b :  Collect the code from the internet for any five programs of the C language and convert them to Java. (Armstrong).](#Program12b)
+
+[Program 12c :  Collect the code from the internet for any five programs of the C language and convert them to Java. (Palindrome).](#Program12c)
+
+[Program 12d :  Collect the code from the internet for any five programs of the C language and convert them to Java. (Fibonacci).](#Program12d)
+
+[Program 12e :  Collect the code from the internet for any five programs of the C language and convert them to Java. (Pattern).](#Program12e)
+
+
 ## Program1
 ```
 class Calculator {
