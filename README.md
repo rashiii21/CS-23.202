@@ -1,6 +1,7 @@
 [Program 1 : Create a class with four methods - Addition, Subtraction, Multiplication, Division.
 Now, test all four methods in public static void main.](#Program1)
-
+[Program 2 : Create a class with four methods - Addition, Subtraction, Multiplication, Division.
+Now, test all four methods in public static void main.](#program2)
 ## Program1
 ```
 class Calculator {
@@ -41,6 +42,7 @@ class Calculator {
 <img width="338" height="177" alt="image" src="https://github.com/user-attachments/assets/483771ac-eb50-40d1-bea8-63c84051aef9" />
 
 ```
+##pro
 class LoopTest {
     public static void main(String[] args) {
 
@@ -69,6 +71,9 @@ class LoopTest {
 <img width="375" height="561" alt="image" src="https://github.com/user-attachments/assets/ed7bff77-d529-4bfe-bdd8-c765e47501e0" />
 
 ```
+
+## program2
+
 import java.util.Scanner;
 
 class GradeCheck {
