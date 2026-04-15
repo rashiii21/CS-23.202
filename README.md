@@ -538,9 +538,13 @@ class MatrixOperations {
     }
 }
 
+
 ```
+
 <img width="489" height="624" alt="image" src="https://github.com/user-attachments/assets/3cc112d5-027d-48f5-ba81-4296038f6c66" />
+
 ```
+
 import java.util.Scanner;
 
 class Factorial {
@@ -558,9 +562,13 @@ class Factorial {
         System.out.println("Factorial = " + fact);
     }
 }
+
 ```
+
 <img width="374" height="136" alt="image" src="https://github.com/user-attachments/assets/fd13a424-ace1-4121-806b-04a4c5a6b334" />
+
 ```
+
 import java.util.Scanner;
 
 class Armstrong {
@@ -585,11 +593,13 @@ class Armstrong {
             System.out.println("Not an Armstrong Number");
     }
 }
+
 ```
 
 <img width="408" height="152" alt="image" src="https://github.com/user-attachments/assets/5581de92-4082-465c-be22-c0cbced22333" />
 
 ```
+
 import java.util.Scanner;
 
 class Palindrome {
@@ -620,6 +630,7 @@ class Palindrome {
 <img width="463" height="141" alt="image" src="https://github.com/user-attachments/assets/d2924a7e-9758-4123-ad7d-3baf239ff509" />
 
 ```
+
 import java.util.Scanner;
 
 class Fibonacci {
@@ -641,10 +652,13 @@ class Fibonacci {
         }
     }
 }
+
 ```
 
 <img width="924" height="157" alt="image" src="https://github.com/user-attachments/assets/915217e5-358f-4d8e-9474-d8476acf0675" />
+
 ```
+
 class Pattern {
     public static void main(String[] args) {
 
@@ -658,6 +672,9 @@ class Pattern {
 }
 
 ```
-<img width="483" height="210" alt="image" src="https://github.com/user-attachments/assets/5f512385-dfa3-4dcd-b598-a7b701d3d4c2" />
+
+<img width="483" height="210" alt="image" src="https://github.com/user-attachments/assets/d64f8705-0860-4a5c-85e8-a61619f95114" />
+
+```
 ```
 
