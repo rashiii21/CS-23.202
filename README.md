@@ -374,3 +374,122 @@ class Time {
 <img width="513" height="307" alt="image" src="https://github.com/user-attachments/assets/9f5d61e8-7f95-46e7-b5a9-06e6ad60202e" />
 
 ```
+import java.util.Scanner;
+
+class OneDArray {
+    int arr[];
+    int n;
+
+    // Input method
+    void input() {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter size of array: ");
+        n = sc.nextInt();
+
+        arr = new int[n];
+        System.out.println("Enter elements:");
+
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+    }
+
+    // Output1: Print normally
+    void output1() {
+        System.out.println("Array elements:");
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
+    }
+
+    // Output2: Print even elements
+    void output2() {
+        System.out.println("Even elements:");
+        for (int i = 0; i < n; i++) {
+            if (arr[i] % 2 == 0) {
+                System.out.print(arr[i] + " ");
+            }
+        }
+        System.out.println();
+    }
+
+    // Reverse method
+    void reverse() {
+        System.out.println("Reversed array:");
+        for (int i = n - 1; i >= 0; i--) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
+    }
+
+    // Main method
+    public static void main(String[] args) {
+        OneDArray obj = new OneDArray();
+        obj.input();
+        obj.output1();
+        obj.output2();
+        obj.reverse();
+    }
+}
+import java.util.Scanner;
+
+class OneDArray {
+    int arr[];
+    int n;
+
+    // Input method
+    void input() {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter size of array: ");
+        n = sc.nextInt();
+
+        arr = new int[n];
+        System.out.println("Enter elements:");
+
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+    }
+
+    // Output1: Print normally
+    void output1() {
+        System.out.println("Array elements:");
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
+    }
+
+    // Output2: Print even elements
+    void output2() {
+        System.out.println("Even elements:");
+        for (int i = 0; i < n; i++) {
+            if (arr[i] % 2 == 0) {
+                System.out.print(arr[i] + " ");
+            }
+        }
+        System.out.println();
+    }
+
+    // Reverse method
+    void reverse() {
+        System.out.println("Reversed array:");
+        for (int i = n - 1; i >= 0; i--) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
+    }
+
+    // Main method
+    public static void main(String[] args) {
+        OneDArray obj = new OneDArray();
+        obj.input();
+        obj.output1();
+        obj.output2();
+        obj.reverse();
+    }
+}
+<img width="548" height="204" alt="image" src="https://github.com/user-attachments/assets/95ef2df2-e4cd-47af-b200-be9a61e8aabd" />
+<img width="548" height="204" alt="image" src="https://github.com/user-attachments/assets/55c0ebab-1666-4547-83e2-403898f6883f" />
+```
