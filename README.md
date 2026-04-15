@@ -70,6 +70,7 @@ class LoopTest {
 
 <img width="375" height="561" alt="image" src="https://github.com/user-attachments/assets/ed7bff77-d529-4bfe-bdd8-c765e47501e0" />
 
+## Program3
 ```
 
 
@@ -101,6 +102,7 @@ class GradeCheck {
 
 <img width="317" height="171" alt="image" src="https://github.com/user-attachments/assets/1a6e9383-c9b5-48e4-a041-8a3023adab87" />
 
+## Program4
 ```
 import java.util.Scanner;
 
@@ -135,6 +137,7 @@ class SquareStars {
 
 <img width="312" height="383" alt="image" src="https://github.com/user-attachments/assets/4b8d5cb9-f32f-4abd-945a-f3f45c226467" />
 
+## Program5
 ```
 import java.util.Scanner;
 
@@ -173,6 +176,7 @@ class PyramidStars {
 
 <img width="318" height="236" alt="image" src="https://github.com/user-attachments/assets/93cb5c24-f2a3-425d-b211-591993996cf2" />
 
+## Program6
 ```
 import java.util.Scanner;
 
@@ -220,6 +224,7 @@ class Distance {
 
 <img width="519" height="253" alt="image" src="https://github.com/user-attachments/assets/0059438c-6c95-455b-8182-2986af72bb90" />
 
+## Program7
 ```
 import java.util.Scanner;
 
@@ -275,6 +280,7 @@ class Distance {
 
 <img width="526" height="325" alt="image" src="https://github.com/user-attachments/assets/da13122a-6a6a-4c7c-9152-98ea1afae6ce" />
 
+## Program7
 ```
 import java.util.Scanner;
 
@@ -322,6 +328,7 @@ class Time {
 
 <img width="421" height="286" alt="image" src="https://github.com/user-attachments/assets/7eea1f29-1c49-4b34-8156-10a520f18a78" />
 
+## Program8
 ```
 import java.util.Scanner;
 
@@ -377,6 +384,7 @@ class Time {
 
 <img width="513" height="307" alt="image" src="https://github.com/user-attachments/assets/9f5d61e8-7f95-46e7-b5a9-06e6ad60202e" />
 
+## Program9
 ```
 import java.util.Scanner;
 
@@ -439,6 +447,7 @@ class OneDArray {
 ```
 <img width="429" height="320" alt="image" src="https://github.com/user-attachments/assets/46644926-4dd2-4d61-a70a-6876434b58fb" />
 
+## Program10
 ```
 import java.util.Scanner;
 
@@ -544,6 +553,7 @@ class MatrixOperations {
 
 <img width="489" height="624" alt="image" src="https://github.com/user-attachments/assets/3cc112d5-027d-48f5-ba81-4296038f6c66" />
 
+## Program11
 ```
 
 import java.util.Scanner;
@@ -568,6 +578,7 @@ class Factorial {
 
 <img width="374" height="136" alt="image" src="https://github.com/user-attachments/assets/fd13a424-ace1-4121-806b-04a4c5a6b334" />
 
+## Program12
 ```
 
 import java.util.Scanner;
@@ -599,6 +610,7 @@ class Armstrong {
 
 <img width="408" height="152" alt="image" src="https://github.com/user-attachments/assets/5581de92-4082-465c-be22-c0cbced22333" />
 
+## Program13
 ```
 
 import java.util.Scanner;
@@ -630,6 +642,7 @@ class Palindrome {
 
 <img width="463" height="141" alt="image" src="https://github.com/user-attachments/assets/d2924a7e-9758-4123-ad7d-3baf239ff509" />
 
+## Program14
 ```
 
 import java.util.Scanner;
@@ -658,6 +671,7 @@ class Fibonacci {
 
 <img width="924" height="157" alt="image" src="https://github.com/user-attachments/assets/915217e5-358f-4d8e-9474-d8476acf0675" />
 
+## Program15
 ```
 
 class Pattern {
@@ -676,6 +690,5 @@ class Pattern {
 
 <img width="483" height="210" alt="image" src="https://github.com/user-attachments/assets/d64f8705-0860-4a5c-85e8-a61619f95114" />
 
-```
 ```
 
