@@ -1399,4 +1399,46 @@ public class Main extends JFrame implements ActionListener {
 ## Program21
 ```
 
+package mypack;
+
+public class Add {
+    public int sum(int a, int b) {
+        return a + b;
+    }
+}
+package mypack;
+
+public class Sub {
+    public int subtract(int a, int b) {
+        return a - b;
+    }
+}
+package mypack;
+
+public class Mul {
+    public int multiply(int a, int b) {
+        return a * b;
+    }
+}
+package mypack;
+
+public class Div {
+    public int divide(int a, int b) {
+        return a / b;
+    }
+}
+package mypack;
+
+public class Square {
+    public int square(int a) {
+        return a * a;
+    }
+}
+
+```
+
+<img width="1354" height="366" alt="image" src="https://github.com/user-attachments/assets/9e1ab945-210d-4425-8f33-77c411d4f122" />
+
+```
+
 
