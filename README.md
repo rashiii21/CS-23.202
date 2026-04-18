@@ -723,3 +723,671 @@ class Pattern {
 
 ```
 
+class PrintOneToHundred {
+    void display() {
+        System. out.println("Printing 1 to 100:");
+        for (int i = 1; i <= 100; i++) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+    }
+}
+
+class PrintHundredToOne {
+    void display() {
+        System. out.println("Printing 100 to 1:");
+        for (int i = 100; i >= 1; i--) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+    }
+}
+
+class PrintOneToHundredAgain {
+    void display() {
+        System. out.println("Printing 1 to 100 again:");
+        for (int i = 1; i <= 100; i++) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        PrintOneToHundred obj1 = new PrintOneToHundred();
+        PrintHundredToOne obj2 = new PrintHundredToOne();
+        PrintOneToHundredAgain obj3 = new PrintOneToHundredAgain();
+
+        obj1.display();
+        obj2.display();
+        obj3.display();
+    }
+}
+
+```
+
+<img width="919" height="564" alt="image" src="https://github.com/user-attachments/assets/8909e3a1-b1ca-4d6c-907f-a1fe2873f4f9" />
+
+```
+
+class ThreadOne extends Thread {
+    public void run() {
+        System. out.println("Thread 1: Printing 1 to 100");
+        for (int i = 1; i <= 100; i++) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+    }
+}
+
+class ThreadTwo extends Thread {
+    public void run() {
+        System. out.println("Thread 2: Printing 100 to 1");
+        for (int i = 100; i >= 1; i--) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+    }
+}
+
+class ThreadThree extends Thread {
+    public void run() {
+        System. out.println("Thread 3: Printing 1 to 100");
+        for (int i = 1; i <= 100; i++) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+    }
+}
+
+
+public class Main {
+    public static void main(String[] args) {
+
+        ThreadOne t1 = new ThreadOne();
+        ThreadTwo t2 = new ThreadTwo();
+        ThreadThree t3 = new ThreadThree();
+
+        t1.start();
+        t2.start();
+        t3.start();
+    }
+}
+
+```
+
+<img width="908" height="545" alt="image" src="https://github.com/user-attachments/assets/abc936d1-3470-448c-b3b7-013bd14acc1a" />
+
+```
+
+class ThreadOne extends Thread {
+    public void run() {
+        System.out.println("Thread 1: Printing 1 to 100");
+        for (int i = 1; i <= 100; i++) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+    }
+}
+
+class ThreadTwo extends Thread {
+    public void run() {
+        System.out.println("Thread 2: Printing 100 to 1");
+        for (int i = 100; i >= 1; i--) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+    }
+}
+
+class ThreadThree extends Thread {
+    public void run() {
+        System.out.println("Thread 3: Printing 1 to 100");
+        for (int i = 1; i <= 100; i++) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+
+        ThreadOne t1 = new ThreadOne();
+        ThreadTwo t2 = new ThreadTwo();
+        ThreadThree t3 = new ThreadThree();
+
+        try {
+            t1.start();
+            t1.join();   
+
+            t2.start();
+            t2.join();  
+
+            t3.start();
+            t3.join();  
+
+        } catch (InterruptedException e) {
+            System.out.println("Exception: " + e);
+        }
+    }
+}
+
+```
+
+<img width="928" height="582" alt="image" src="https://github.com/user-attachments/assets/8f17bbfe-295f-4949-8c45-6dfea3954e18" />
+
+```
+
+import javax.swing.*;
+import java.awt.event.*;
+
+public class Main extends JFrame implements ActionListener {
+    JLabel l1, l2, l3;
+    JTextField t1, t2, t3;
+    JButton b1;
+
+    Main() {
+        l1 = new JLabel("Enter First Number:");
+        l2 = new JLabel("Enter Second Number:");
+        l3 = new JLabel("Result:");
+
+        t1 = new JTextField();
+        t2 = new JTextField();
+        t3 = new JTextField();
+        t3.setEditable(false);
+
+        b1 = new JButton("Add");
+        b1.addActionListener(this);
+
+        l1.setBounds(50, 50, 150, 30);
+        t1.setBounds(200, 50, 150, 30);
+
+        l2.setBounds(50, 100, 150, 30);
+        t2.setBounds(200, 100, 150, 30);
+
+        l3.setBounds(50, 150, 150, 30);
+        t3.setBounds(200, 150, 150, 30);
+
+        b1.setBounds(140, 220, 100, 30);
+
+        add(l1); add(t1);
+        add(l2); add(t2);
+        add(l3); add(t3);
+        add(b1);
+
+        setTitle("Addition of Two Numbers");
+        setSize(450, 350);
+        setLayout(null);
+        setVisible(true);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    }
+
+    public void actionPerformed(ActionEvent e) {
+        int num1 = Integer.parseInt(t1.getText());
+        int num2 = Integer.parseInt(t2.getText());
+        int sum = num1 + num2;
+        t3.setText(String.valueOf(sum));
+    }
+
+    public static void main(String[] args) {
+        new Main();
+    }
+}
+
+```
+
+<img width="550" height="431" alt="image" src="https://github.com/user-attachments/assets/d1466150-90f4-47ab-b39b-cd335e6589eb" />
+
+```
+
+import javax.swing.*;
+import java.awt.event.*;
+
+public class Main extends JFrame implements ActionListener {
+    JLabel l1, l2, l3;
+    JTextField t1, t2, t3;
+    JButton b1, b2, b3, b4, b5;
+
+    Main() {
+        l1 = new JLabel("First Number:");
+        l2 = new JLabel("Second Number:");
+        l3 = new JLabel("Result:");
+
+        t1 = new JTextField();
+        t2 = new JTextField();
+        t3 = new JTextField();
+        t3.setEditable(false);
+
+        b1 = new JButton("Add");
+        b2 = new JButton("Sub");
+        b3 = new JButton("Mul");
+        b4 = new JButton("Div");
+        b5 = new JButton("Clear");
+
+        b1.addActionListener(this);
+        b2.addActionListener(this);
+        b3.addActionListener(this);
+        b4.addActionListener(this);
+        b5.addActionListener(this);
+
+        l1.setBounds(50, 50, 100, 30);
+        t1.setBounds(170, 50, 150, 30);
+
+        l2.setBounds(50, 100, 100, 30);
+        t2.setBounds(170, 100, 150, 30);
+
+        l3.setBounds(50, 150, 100, 30);
+        t3.setBounds(170, 150, 150, 30);
+
+        b1.setBounds(30, 220, 70, 30);
+        b2.setBounds(110, 220, 70, 30);
+        b3.setBounds(190, 220, 70, 30);
+        b4.setBounds(270, 220, 70, 30);
+        b5.setBounds(150, 270, 80, 30);
+
+        add(l1); add(t1);
+        add(l2); add(t2);
+        add(l3); add(t3);
+        add(b1); add(b2); add(b3); add(b4); add(b5);
+
+        setTitle("Calculator Using Swing");
+        setSize(400, 380);
+        setLayout(null);
+        setVisible(true);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    }
+
+    public void actionPerformed(ActionEvent e) {
+        try {
+            double num1 = Double.parseDouble(t1.getText());
+            double num2 = Double.parseDouble(t2.getText());
+            double result = 0;
+
+            if (e.getSource() == b1) {
+                result = num1 + num2;
+            } else if (e.getSource() == b2) {
+                result = num1 - num2;
+            } else if (e.getSource() == b3) {
+                result = num1 * num2;
+            } else if (e.getSource() == b4) {
+                if (num2 == 0) {
+                    JOptionPane.showMessageDialog(this, "Division by zero is not allowed");
+                    return;
+                }
+                result = num1 / num2;
+            } else if (e.getSource() == b5) {
+                t1.setText("");
+                t2.setText("");
+                t3.setText("");
+                return;
+            }
+
+            t3.setText(String.valueOf(result));
+
+        } catch (NumberFormatException ex) {
+            JOptionPane.showMessageDialog(this, "Please enter valid numbers");
+        }
+    }
+
+    public static void main(String[] args) {
+        new Main();
+    }
+}
+
+```
+
+<img width="494" height="469" alt="image" src="https://github.com/user-attachments/assets/fda5657d-d39f-475c-8294-337d5a0e127a" />
+
+```
+
+import javax.swing.*;
+import java.awt.event.*;
+
+public class Main extends JFrame implements ActionListener {
+
+    JTextField a11, a12, a21, a22;
+    JTextField b11, b12, b21, b22;
+    JTextField r11, r12, r21, r22;
+    JButton addBtn, clearBtn;
+
+    Main() {
+        setTitle("Matrix Addition (2x2)");
+        setSize(420, 320);
+        setLayout(null);
+
+        // Matrix A
+        JLabel la = new JLabel("Matrix A");
+        la.setBounds(60, 10, 100, 20);
+        add(la);
+
+        a11 = new JTextField(); a11.setBounds(40, 40, 50, 30);
+        a12 = new JTextField(); a12.setBounds(100, 40, 50, 30);
+        a21 = new JTextField(); a21.setBounds(40, 80, 50, 30);
+        a22 = new JTextField(); a22.setBounds(100, 80, 50, 30);
+
+        // Matrix B
+        JLabel lb = new JLabel("Matrix B");
+        lb.setBounds(250, 10, 100, 20);
+        add(lb);
+
+        b11 = new JTextField(); b11.setBounds(230, 40, 50, 30);
+        b12 = new JTextField(); b12.setBounds(290, 40, 50, 30);
+        b21 = new JTextField(); b21.setBounds(230, 80, 50, 30);
+        b22 = new JTextField(); b22.setBounds(290, 80, 50, 30);
+
+        // Result
+        JLabel lr = new JLabel("Result");
+        lr.setBounds(150, 120, 100, 20);
+        add(lr);
+
+        r11 = new JTextField(); r11.setBounds(120, 150, 50, 30); r11.setEditable(false);
+        r12 = new JTextField(); r12.setBounds(180, 150, 50, 30); r12.setEditable(false);
+        r21 = new JTextField(); r21.setBounds(120, 190, 50, 30); r21.setEditable(false);
+        r22 = new JTextField(); r22.setBounds(180, 190, 50, 30); r22.setEditable(false);
+
+        // Buttons
+        addBtn = new JButton("Add");
+        clearBtn = new JButton("Clear");
+        addBtn.setBounds(90, 240, 80, 30);
+        clearBtn.setBounds(200, 240, 80, 30);
+
+        addBtn.addActionListener(this);
+        clearBtn.addActionListener(this);
+
+        // Add components
+        add(a11); add(a12); add(a21); add(a22);
+        add(b11); add(b12); add(b21); add(b22);
+        add(r11); add(r12); add(r21); add(r22);
+        add(addBtn); add(clearBtn);
+
+        setVisible(true);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    }
+
+    public void actionPerformed(ActionEvent e) {
+        if (e.getSource() == addBtn) {
+            try {
+                int A11 = Integer.parseInt(a11.getText());
+                int A12 = Integer.parseInt(a12.getText());
+                int A21 = Integer.parseInt(a21.getText());
+                int A22 = Integer.parseInt(a22.getText());
+
+                int B11 = Integer.parseInt(b11.getText());
+                int B12 = Integer.parseInt(b12.getText());
+                int B21 = Integer.parseInt(b21.getText());
+                int B22 = Integer.parseInt(b22.getText());
+
+                r11.setText(String.valueOf(A11 + B11));
+                r12.setText(String.valueOf(A12 + B12));
+                r21.setText(String.valueOf(A21 + B21));
+                r22.setText(String.valueOf(A22 + B22));
+
+            } catch (NumberFormatException ex) {
+                JOptionPane.showMessageDialog(this, "Enter valid integers");
+            }
+        }
+
+        if (e.getSource() == clearBtn) {
+            JTextField[] fields = {
+                a11,a12,a21,a22, b11,b12,b21,b22, r11,r12,r21,r22
+            };
+            for (JTextField f : fields) f.setText("");
+        }
+    }
+
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> new Main());
+    }
+}
+
+```
+
+<img width="514" height="394" alt="image" src="https://github.com/user-attachments/assets/bba719ab-60c3-4a54-955b-358a772f20cd" />
+
+```
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+class ShapePanel extends JPanel {
+    String shape = "";
+
+    public void setShape(String shape) {
+        this.shape = shape;
+        repaint();
+    }
+
+    protected void paintComponent(Graphics g) {
+        super.paintComponent(g);
+
+        if (shape.equals("Line")) {
+            g.drawLine(50, 50, 200, 50);
+        } 
+        else if (shape.equals("Rectangle")) {
+            g.drawRect(50, 50, 120, 80);
+        } 
+        else if (shape.equals("Square")) {
+            g.drawRect(50, 50, 100, 100);
+        } 
+        else if (shape.equals("Oval")) {
+            g.drawOval(50, 50, 150, 100);
+        } 
+        else if (shape.equals("Circle")) {
+            g.drawOval(50, 50, 100, 100);
+        } 
+        else if (shape.equals("RoundRect")) {
+            g.drawRoundRect(50, 50, 150, 100, 30, 30);
+        } 
+        else if (shape.equals("Arc")) {
+            g.drawArc(50, 50, 150, 100, 0, 180);
+        } 
+        else if (shape.equals("Triangle")) {
+            int x[] = {100, 50, 150};
+            int y[] = {50, 150, 150};
+            g.drawPolygon(x, y, 3);
+        } 
+        else if (shape.equals("Polygon")) {
+            int x[] = {100, 150, 130, 70, 50};
+            int y[] = {50, 90, 150, 150, 90};
+            g.drawPolygon(x, y, 5);
+        } 
+        else if (shape.equals("Clear")) {
+            // do nothing
+        }
+    }
+}
+
+public class Main extends JFrame implements ActionListener {
+    JButton b1, b2, b3, b4, b5, b6, b7, b8, b9, b10;
+    ShapePanel panel;
+
+    Main() {
+        setTitle("Shapes using 10 Buttons");
+        setSize(700, 500);
+        setLayout(null);
+
+        panel = new ShapePanel();
+        panel.setBounds(200, 30, 450, 400);
+        panel.setBackground(Color.WHITE);
+
+        b1 = new JButton("Line");
+        b2 = new JButton("Rectangle");
+        b3 = new JButton("Square");
+        b4 = new JButton("Oval");
+        b5 = new JButton("Circle");
+        b6 = new JButton("RoundRect");
+        b7 = new JButton("Arc");
+        b8 = new JButton("Triangle");
+        b9 = new JButton("Polygon");
+        b10 = new JButton("Clear");
+
+        JButton[] buttons = {b1, b2, b3, b4, b5, b6, b7, b8, b9, b10};
+
+        int y = 30;
+        for (JButton b : buttons) {
+            b.setBounds(30, y, 130, 30);
+            b.addActionListener(this);
+            add(b);
+            y += 35;
+        }
+
+        add(panel);
+
+        setVisible(true);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    }
+
+    public void actionPerformed(ActionEvent e) {
+        String cmd = e.getActionCommand();
+        panel.setShape(cmd);
+    }
+
+    public static void main(String[] args) {
+        new Main();
+    }
+}
+
+```
+
+<img width="859" height="617" alt="image" src="https://github.com/user-attachments/assets/68578219-3a34-4881-a309-959984432488" />
+
+```
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.ArrayList;
+
+class DrawPoint {
+    int x, y, size;
+    Color color;
+
+    DrawPoint(int x, int y, Color color, int size) {
+        this.x = x;
+        this.y = y;
+        this.color = color;
+        this.size = size;
+    }
+}
+
+class PaintPanel extends JPanel implements MouseMotionListener {
+    ArrayList<DrawPoint> points = new ArrayList<>();
+    Color currentColor = Color.BLACK;
+    int brushSize = 5;
+
+    PaintPanel() {
+        setBackground(Color.WHITE);
+        addMouseMotionListener(this);
+    }
+
+    public void setCurrentColor(Color c) {
+        currentColor = c;
+    }
+
+    public void setBrushSize(int size) {
+        brushSize = size;
+    }
+
+    protected void paintComponent(Graphics g) {
+        super.paintComponent(g);
+
+        for (DrawPoint p : points) {
+            g.setColor(p.color);
+            g.fillOval(p.x, p.y, p.size, p.size);
+        }
+    }
+
+    public void mouseDragged(MouseEvent e) {
+        points.add(new DrawPoint(e.getX(), e.getY(), currentColor, brushSize));
+        repaint();
+    }
+
+    public void mouseMoved(MouseEvent e) {
+    }
+
+    public void clearCanvas() {
+        points.clear();
+        repaint();
+    }
+}
+
+public class Main extends JFrame implements ActionListener {
+    JButton redBtn, blueBtn, greenBtn, blackBtn, clearBtn;
+    JComboBox<String> widthBox;
+    PaintPanel panel;
+
+    Main() {
+        setTitle("Paint Brush Program");
+        setSize(800, 600);
+        setLayout(null);
+
+        redBtn = new JButton("Red");
+        blueBtn = new JButton("Blue");
+        greenBtn = new JButton("Green");
+        blackBtn = new JButton("Black");
+        clearBtn = new JButton("Clear");
+
+        String widths[] = {"5", "10", "15", "20", "25"};
+        widthBox = new JComboBox<>(widths);
+
+        redBtn.setBounds(20, 20, 80, 30);
+        blueBtn.setBounds(110, 20, 80, 30);
+        greenBtn.setBounds(200, 20, 80, 30);
+        blackBtn.setBounds(290, 20, 80, 30);
+        clearBtn.setBounds(380, 20, 80, 30);
+        widthBox.setBounds(480, 20, 80, 30);
+
+        redBtn.addActionListener(this);
+        blueBtn.addActionListener(this);
+        greenBtn.addActionListener(this);
+        blackBtn.addActionListener(this);
+        clearBtn.addActionListener(this);
+        widthBox.addActionListener(this);
+
+        add(redBtn);
+        add(blueBtn);
+        add(greenBtn);
+        add(blackBtn);
+        add(clearBtn);
+        add(widthBox);
+
+        panel = new PaintPanel();
+        panel.setBounds(20, 70, 740, 470);
+        add(panel);
+
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setVisible(true);
+    }
+
+    public void actionPerformed(ActionEvent e) {
+        if (e.getSource() == redBtn) {
+            panel.setCurrentColor(Color.RED);
+        } else if (e.getSource() == blueBtn) {
+            panel.setCurrentColor(Color.BLUE);
+        } else if (e.getSource() == greenBtn) {
+            panel.setCurrentColor(Color.GREEN);
+        } else if (e.getSource() == blackBtn) {
+            panel.setCurrentColor(Color.BLACK);
+        } else if (e.getSource() == clearBtn) {
+            panel.clearCanvas();
+        } else if (e.getSource() == widthBox) {
+            int size = Integer.parseInt((String) widthBox.getSelectedItem());
+            panel.setBrushSize(size);
+        }
+    }
+
+    public static void main(String[] args) {
+        new Main();
+    }
+}
+
+```
+
+<img width="988" height="745" alt="image" src="https://github.com/user-attachments/assets/d35ccb30-46a3-483a-b07f-e5e12e94dd55" />
+
+```
+
+
