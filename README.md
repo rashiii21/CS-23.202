@@ -33,7 +33,7 @@ Now, test all four methods in the public static void main. ](#Program1)
 
 [Program 12e:  Collect the code from the internet for any five programs of the C language and convert them to Java. (Pattern).](#Program12e)
 
-[Program 13 :  Write a program using three classes to print 1–100, 1–100, 1–100  without thread and analyse the output and repeat the same program using runnable interface.](#Program13)
+[Program 13:  Write a program using three classes to print 1–100, 1–100, 1–100  without a thread, and analyse the output, and repeat the same program using the Runnable interface.](#Program13)
 
 [Program 14 :  Write a program using three classes to print 1–100, 1–100, 1–100  with thread and analyse the output and repeat the same program using runnable interface.](#Program14)
 
