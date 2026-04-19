@@ -41,7 +41,7 @@ Now, test all four methods in the public static void main. ](#Program1)
 
 [Program 16: Addition of 2 numbers using Swing.](#Program16)
 
-[Program 17 :  Make one calculator in swing.](#Program17)
+[Program 17:  Make one calculator in Swing.](#Program17)
 
 [Program 18 :  Matrix Addition using swing class.](#Program18)
 
