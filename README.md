@@ -1333,6 +1333,8 @@ class PaintPanel extends JPanel implements MouseMotionListener {
     }
 }
 
+//Main
+
 public class Main extends JFrame implements ActionListener {
     JButton redBtn, blueBtn, greenBtn, blackBtn, clearBtn;
     JComboBox<String> widthBox;
