@@ -821,7 +821,6 @@ class ThreadThree extends Thread {
     }
 }
 
-
 public class Main {
     public static void main(String[] args) {
 
@@ -1446,6 +1445,9 @@ public class Square {
         return a * a;
     }
 }
+
+#Main
+
 import mypack.*;
 
 public class Main {
