@@ -37,7 +37,7 @@ Now, test all four methods in the public static void main. ](#Program1)
 
 [Program 14:  Write a program using three classes to print 1–100, 1–100, 1–100  with a thread and analyse the output, and repeat the same program using the Runnable interface.](#Program14)
 
-[Program 15 :  Using the concept of multithreading, the output of all three threads must be synchronised (use join method).](#Program15)
+[Program 15:  Using the concept of multithreading, the output of all three threads must be synchronised (use the join method).](#Program15)
 
 [Program 16 : Addition of 2 numbers using swing.](#Program16)
 
