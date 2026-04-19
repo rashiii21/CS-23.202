@@ -49,7 +49,7 @@ Now, test all four methods in the public static void main. ](#Program1)
 
 [Program 20:  Just using mouse events creates a frame like a paint brush with selection of colour and width.](#Program20)
 
-[Program 21 :  Create a package of any 5 classes of your choice and import it.](#Program21)
+[Program 21:  Create a package of any 5 classes of your choice and import it.](#Program21)
 
 [Program 22 :  Create one package and sub package, import and test it.](#Program22)
 
