@@ -1446,7 +1446,7 @@ public class Square {
     }
 }
 
-#Main
+//Main Method
 
 import mypack.*;
 
