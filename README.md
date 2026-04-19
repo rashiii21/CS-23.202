@@ -1,4 +1,4 @@
-##INDEX
+## INDEX
 
 [Program 1 : Create a class with four methods - Addition, Subtraction, Multiplication, Division.
 Now, test all four methods in public static void main.](#Program1)
