@@ -66,7 +66,6 @@ Demonstrate arithmetic exception also. ](#Program23)
 
 ## Program1
 ```
-
 class Calculator {
 
     int add(int a, int b) {
@@ -108,7 +107,6 @@ class Calculator {
 ## Program2
 
 ```
-
 class LoopTest {
     public static void main(String[] args) {
 
@@ -140,7 +138,6 @@ class LoopTest {
 ## Program3
 
 ```
-
 import java.util.Scanner;
 
 class GradeCheck {
@@ -172,7 +169,6 @@ class GradeCheck {
 ## Program4
 
 ```
-
 import java.util.Scanner;
 
 class SquareStars {
@@ -209,7 +205,6 @@ class SquareStars {
 ## Program5
 
 ```
-
 import java.util.Scanner;
 
 class PyramidStars {
@@ -251,7 +246,6 @@ class PyramidStars {
 ## Program6
 
 ```
-
 import java.util.Scanner;
 
 class Distance {
@@ -301,7 +295,6 @@ class Distance {
 ## Program7
 
 ```
-
 import java.util.Scanner;
 
 class Distance {
@@ -360,7 +353,6 @@ class Distance {
 ## Program8
 
 ```
-
 import java.util.Scanner;
 
 class Time {
@@ -410,7 +402,6 @@ class Time {
 ## Program9
 
 ```
-
 import java.util.Scanner;
 
 class Time {
@@ -468,7 +459,6 @@ class Time {
 ## Program10
 
 ```
-
 import java.util.Scanner;
 
 class OneDArray {
@@ -528,7 +518,6 @@ class OneDArray {
 ## Program11
 
 ```
-
 import java.util.Scanner;
 
 class MatrixOperations {
@@ -629,7 +618,6 @@ class MatrixOperations {
 ## Program12a
 
 ```
-
 import java.util.Scanner;
 
 class Factorial {
@@ -655,7 +643,6 @@ class Factorial {
 ## Program12b
 
 ```
-
 import java.util.Scanner;
 
 class Armstrong {
@@ -688,7 +675,6 @@ class Armstrong {
 ## Program12c
 
 ```
-
 import java.util.Scanner;
 
 class Palindrome {
@@ -721,7 +707,6 @@ class Palindrome {
 ## Program12d
 
 ```
-
 import java.util.Scanner;
 
 class Fibonacci {
@@ -751,7 +736,6 @@ class Fibonacci {
 ## Program12e
 
 ```
-
 class Pattern {
     public static void main(String[] args) {
 
@@ -771,7 +755,6 @@ class Pattern {
 ## Program13
 
 ```
-
 class PrintOneToHundred {
     void display() {
         System. out.println("Printing 1 to 100:");
@@ -821,7 +804,6 @@ public class Main {
 ## Program14
 
 ```
-
 class ThreadOne extends Thread {
     public void run() {
         System. out.println("Thread 1: Printing 1 to 100");
@@ -872,7 +854,6 @@ public class Main {
 ## Program15
 
 ```
-
 class ThreadOne extends Thread {
     public void run() {
         System. out.println("Thread 1: Printing 1 to 100");
@@ -933,7 +914,6 @@ public class Main {
 ## Program16
 
 ```
-
 import javax.swing.*;
 import java.awt.event.*;
 
@@ -997,7 +977,6 @@ public class Main extends JFrame implements ActionListener {
 ## Program17
 
 ```
-
 import javax.swing.*;
 import java.awt.event.*;
 
@@ -1099,7 +1078,6 @@ public class Main extends JFrame implements ActionListener {
 ## Program18
 
 ```
-
 import javax.swing.*;
 import java.awt.event.*;
 
@@ -1202,7 +1180,6 @@ public class Main extends JFrame implements ActionListener {
 ## Program19
 
 ```
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -1311,7 +1288,6 @@ public class Main extends JFrame implements ActionListener {
 ## Program20
 
 ```
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -1449,7 +1425,6 @@ public class Main extends JFrame implements ActionListener {
 ## Program21
 
 ```
-
 package mypack;
 
 public class Add {
@@ -1513,7 +1488,6 @@ public class Main {
 ## Program22
 
 ```
-
 package mypack;
 
 public class Add {
@@ -1551,7 +1525,6 @@ public class Main {
 ## Program23
 
 ```
-
 public class Main {
     public static void main(String[] args) {
 
@@ -1597,7 +1570,6 @@ public class Main {
 ## Program24
 
 ```
-
 class InvalidAgeException extends Exception {
     public InvalidAgeException(String message) {
         super(message);
@@ -1635,7 +1607,6 @@ public class Main {
 ## Program25
 
 ```
-
 //Character-by-Character
 
 import java.io.*;
@@ -1695,7 +1666,6 @@ public class ByteFileCopy {
 ## Program26
 
 ```
-
 interface Printer {
     void print();
 }
@@ -1734,7 +1704,6 @@ public class Main {
 ## Program27
 
 ```
-
 import javax.swing.*;
 import java.awt.event.*;
 import java.sql.*;
@@ -1934,7 +1903,6 @@ public class Main extends JFrame implements ActionListener {
 <img width="535" height="662" alt="Screenshot 2026-04-19 105641" src="https://github.com/user-attachments/assets/0846c934-8463-48cf-b708-34a6b172dc20" />
 
 ```
-
 ```
 
 <img width="1903" height="895" alt="Screenshot 2026-04-19 105720" src="https://github.com/user-attachments/assets/d018736f-cfb9-44ce-bdd7-8d011508cf0c" />
