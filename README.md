@@ -27,11 +27,11 @@ Now, test all four methods in the public static void main. ](#Program1)
 
 [Program 12b:  Collect the code from the internet for any five programs of the C language and convert them to Java. (Armstrong).](#Program12b)
 
-[Program 12c :  Collect the code from the internet for any five programs of the C language and convert them to Java. (Palindrome).](#Program12c)
+[Program 12c:  Collect the code from the internet for any five programs of the C language and convert them to Java. (Palindrome).](#Program12c)
 
-[Program 12d :  Collect the code from the internet for any five programs of the C language and convert them to Java. (Fibonacci).](#Program12d)
+[Program 12d:  Collect the code from the internet for any five programs of the C language and convert them to Java. (Fibonacci).](#Program12d)
 
-[Program 12e :  Collect the code from the internet for any five programs of the C language and convert them to Java. (Pattern).](#Program12e)
+[Program 12e:  Collect the code from the internet for any five programs of the C language and convert them to Java. (Pattern).](#Program12e)
 
 [Program 13 :  Write a program using three classes to print 1–100, 1–100, 1–100  without thread and analyse the output and repeat the same program using runnable interface.](#Program13)
 
