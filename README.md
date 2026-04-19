@@ -55,9 +55,11 @@ Now, test all four methods in public static void main.](#Program1)
 
 [Program 24 :  To test the range of age of one student, write a program using user defined exception.](#Program24)
 
-[Program 25 :  Write a program using three classes to print 1–100, 1–100, 1–100  without thread and analyse the output and repeat the same program using runnable interface..](#Program25)
+[Program 25 : File Handling Programs (given in the PPT).](#Program25)
 
-[Program 26 :  Write a program using three classes to print 1–100, 1–100, 1–100  without thread and analyse the output and repeat the same program using runnable interface..](#Program26)
+[Program 26 :  Inheritance Programs, using interface and abstract classes.](#Program26)
+
+[Program 27 :  Make a registration form with 10 elements and send the data into database (use JDBC connectivity).](#Program27)
 
 
 ## Program1
