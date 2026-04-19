@@ -1068,6 +1068,7 @@ public class Main extends JFrame implements ActionListener {
 <img width="494" height="469" alt="image" src="https://github.com/user-attachments/assets/fda5657d-d39f-475c-8294-337d5a0e127a" />
 
 ## Program18
+
 ```
 
 import javax.swing.*;
