@@ -1456,6 +1456,7 @@ public class Main {
 
 <img width="1354" height="366" alt="image" src="https://github.com/user-attachments/assets/9e1ab945-210d-4425-8f33-77c411d4f122" />
 
+## Program22
 ```
 
 public class Main {
@@ -1502,6 +1503,7 @@ public class Main {
 
 <img width="624" height="459" alt="image" src="https://github.com/user-attachments/assets/8006f1e7-bea4-4a61-abff-ba610dcd4d11" />
 
+## Program23
 ```
 
 // User-defined exception
@@ -1540,6 +1542,7 @@ public class Main {
 
 <img width="668" height="279" alt="image" src="https://github.com/user-attachments/assets/5432d76f-c543-41e2-add0-b5b25b493317" />
 
+## Program24
 ```
 
 import java.io.*;
@@ -1593,6 +1596,7 @@ public class ByteFileCopy {
 
 <img width="1673" height="1002" alt="image" src="https://github.com/user-attachments/assets/8ee10ec4-add6-4146-bdde-083fc33ce1e1" />
 
+## Program25
 ```
 
 interface Printer {
@@ -1630,6 +1634,7 @@ public class Main {
 
 <img width="674" height="239" alt="image" src="https://github.com/user-attachments/assets/3b5969fa-f8b2-467f-9bd9-eba9a1a2da23" />
 
+## Program26
 ```
 
 import javax.swing.*;
@@ -1831,7 +1836,6 @@ public class Main extends JFrame implements ActionListener {
 <img width="535" height="662" alt="Screenshot 2026-04-19 105641" src="https://github.com/user-attachments/assets/0846c934-8463-48cf-b708-34a6b172dc20" />
 
 ```
-
 ```
 
 <img width="1903" height="895" alt="Screenshot 2026-04-19 105720" src="https://github.com/user-attachments/assets/d018736f-cfb9-44ce-bdd7-8d011508cf0c" />
