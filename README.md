@@ -23,7 +23,7 @@ Now, test all four methods in the public static void main. ](#Program1)
 
 [Program 11:  Write a class with multiple methods to perform matrix operations (transpose, addition, sum of rows, sum of columns, sum of diagonal).](#Program11)
 
-[Program 12a :  Collect the code from the internet for any five programs in the C language and convert them to Java. (Factorial).](#Program12a)
+[Program 12a:  Collect the code from the internet for any five programs in the C language and convert them to Java. (Factorial).](#Program12a)
 
 [Program 12b :  Collect the code from the internet for any five programs of the C language and convert them to Java. (Armstrong).](#Program12b)
 
