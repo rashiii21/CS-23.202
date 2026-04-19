@@ -9,7 +9,7 @@ Now, test all four methods in the public static void main. ](#Program1)
 
 [Program 4: Write a Program in Java using objects and classes to get the square of stars for dynamic width and height.](#Program4)
 
-[Program 5 : Write a Program in Java using objects and classes to get the pyramid of stars or triangle of stars.](#Program5)
+[Program 5: Write a Program in Java using objects and classes to get the pyramid of stars or triangle of stars.](#Program5)
 
 [Program 6 : Write a Program in Java using OOPs concept for the addition of two distances where each distance is given in metres and centimetres.](#Program6)
 
