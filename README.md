@@ -99,6 +99,7 @@ class Calculator {
         System.out.println("Division: " + calc.div(x, y));
     }
 }
+
 ```
 
 <img width="338" height="177" alt="image" src="https://github.com/user-attachments/assets/483771ac-eb50-40d1-bea8-63c84051aef9" />
