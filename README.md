@@ -51,7 +51,7 @@ Now, test all four methods in the public static void main. ](#Program1)
 
 [Program 21:  Create a package of any 5 classes of your choice and import it.](#Program21)
 
-[Program 22 :  Create one package and sub package, import and test it.](#Program22)
+[Program 22:  Create one package and a sub-package, import and test it.](#Program22)
 
 [Program 23 :  Create one small array of size 5, apply array out of bounds exception using try-catch, give a proper message in catch and demonstrate the exception exactly in the same fashion. Demonstrate arithmetic exception also.](#Program23)
 
