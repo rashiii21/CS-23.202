@@ -53,13 +53,13 @@ Now, test all four methods in the public static void main. ](#Program1)
 
 [Program 22:  Create one package and a sub-package, import and test it.](#Program22)
 
-[Program 23:  Create one small array of size 5, apply array out of bounds exception using try-catch, give a proper message in catch and demonstrate the exception exactly in the same fashion. Demonstrate arithmetic exception also. ](#Program23)
+[Program 23:  Create one small array of size 5, apply array out of bounds exception using try-catch, give a proper message in catch, and demonstrate the exception exactly in the same fashion. Demonstrate arithmetic exception also. ](#Program23)
 
 [Program 24:  To test the range of age of one student, write a program using a user-defined exception.](#Program24)
 
 [Program 25: File Handling Programs (given in the PPT).](#Program25)
 
-[Program 26 :  Inheritance Programs, using interface and abstract classes.](#Program26)
+[Program 26:  Inheritance Programs, using interface and abstract classes.](#Program26)
 
 [Program 27 :  Make a registration form with 10 elements and send the data into database (use JDBC connectivity).](#Program27)
 
