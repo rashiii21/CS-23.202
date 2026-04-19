@@ -1510,7 +1510,6 @@ public class Main {
 public class Main {
     public static void main(String[] args) {
 
-        // Array Out of Bounds Exception
         try {
             int arr[] = new int[5];
 
@@ -1530,7 +1529,6 @@ public class Main {
             System. out.println("You tried to access an invalid index in the array.");
         }
 
-        // Arithmetic Exception
         try {
             int a = 10;
             int b = 0;
