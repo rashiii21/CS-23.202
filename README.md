@@ -136,7 +136,6 @@ class LoopTest {
 ## Program3
 ```
 
-
 import java.util.Scanner;
 
 class GradeCheck {
@@ -455,10 +454,9 @@ class OneDArray {
     int arr[];
     int n;
 
-    // Input method
     void input() {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter size of array: ");
+        System. out.print("Enter size of array: ");
         n = sc.nextInt();
 
         arr = new int[n];
@@ -469,7 +467,6 @@ class OneDArray {
         }
     }
 
-    // Output1: Print normally
     void output1() {
         System.out.println("Array elements:");
         for (int i = 0; i < n; i++) {
@@ -478,7 +475,6 @@ class OneDArray {
         System.out.println();
     }
 
-    // Output2: Print even elements
     void output2() {
         System.out.println("Even elements:");
         for (int i = 0; i < n; i++) {
@@ -489,7 +485,6 @@ class OneDArray {
         System.out.println();
     }
 
-    // Reverse method
     void reverse() {
         System.out.println("Reversed array:");
         for (int i = n - 1; i >= 0; i--) {
@@ -498,7 +493,6 @@ class OneDArray {
         System.out.println();
     }
 
-    // Main method
     public static void main(String[] args) {
         OneDArray obj = new OneDArray();
         obj.input();
@@ -518,7 +512,6 @@ class MatrixOperations {
     int a[][], b[][];
     int r, c;
 
-    // Input matrices
     void input() {
         Scanner sc = new Scanner(System.in);
 
@@ -544,7 +537,6 @@ class MatrixOperations {
         }
     }
 
-    // Addition
     void addition() {
         System.out.println("Matrix Addition:");
         for (int i = 0; i < r; i++) {
@@ -555,7 +547,6 @@ class MatrixOperations {
         }
     }
 
-    // Transpose of first matrix
     void transpose() {
         System.out.println("Transpose of first matrix:");
         for (int i = 0; i < c; i++) {
@@ -566,7 +557,6 @@ class MatrixOperations {
         }
     }
 
-    // Sum of rows
     void sumRows() {
         System. out.println("Sum of rows:");
         for (int i = 0; i < r; i++) {
@@ -578,7 +568,6 @@ class MatrixOperations {
         }
     }
 
-    // Sum of columns
     void sumColumns() {
         System. out.println("Sum of columns:");
         for (int j = 0; j < c; j++) {
@@ -590,7 +579,6 @@ class MatrixOperations {
         }
     }
 
-    // Sum of diagonal
     void sumDiagonal() {
         int sum = 0;
         for (int i = 0; i < r; i++) {
@@ -599,7 +587,6 @@ class MatrixOperations {
         System.out.println("Sum of diagonal: " + sum);
     }
 
-    // Main method
     public static void main(String[] args) {
         MatrixOperations obj = new MatrixOperations();
         obj.input();
@@ -858,7 +845,7 @@ public class Main {
 
 class ThreadOne extends Thread {
     public void run() {
-        System.out.println("Thread 1: Printing 1 to 100");
+        System. out.println("Thread 1: Printing 1 to 100");
         for (int i = 1; i <= 100; i++) {
             System.out.print(i + " ");
         }
@@ -868,7 +855,7 @@ class ThreadOne extends Thread {
 
 class ThreadTwo extends Thread {
     public void run() {
-        System.out.println("Thread 2: Printing 100 to 1");
+        System. out.println("Thread 2: Printing 100 to 1");
         for (int i = 100; i >= 1; i--) {
             System.out.print(i + " ");
         }
@@ -1095,7 +1082,6 @@ public class Main extends JFrame implements ActionListener {
         setSize(420, 320);
         setLayout(null);
 
-        // Matrix A
         JLabel la = new JLabel("Matrix A");
         la.setBounds(60, 10, 100, 20);
         add(la);
@@ -1105,7 +1091,6 @@ public class Main extends JFrame implements ActionListener {
         a21 = new JTextField(); a21.setBounds(40, 80, 50, 30);
         a22 = new JTextField(); a22.setBounds(100, 80, 50, 30);
 
-        // Matrix B
         JLabel lb = new JLabel("Matrix B");
         lb.setBounds(250, 10, 100, 20);
         add(lb);
@@ -1115,7 +1100,6 @@ public class Main extends JFrame implements ActionListener {
         b21 = new JTextField(); b21.setBounds(230, 80, 50, 30);
         b22 = new JTextField(); b22.setBounds(290, 80, 50, 30);
 
-        // Result
         JLabel lr = new JLabel("Result");
         lr.setBounds(150, 120, 100, 20);
         add(lr);
@@ -1125,7 +1109,6 @@ public class Main extends JFrame implements ActionListener {
         r21 = new JTextField(); r21.setBounds(120, 190, 50, 30); r21.setEditable(false);
         r22 = new JTextField(); r22.setBounds(180, 190, 50, 30); r22.setEditable(false);
 
-        // Buttons
         addBtn = new JButton("Add");
         clearBtn = new JButton("Clear");
         addBtn.setBounds(90, 240, 80, 30);
@@ -1134,7 +1117,6 @@ public class Main extends JFrame implements ActionListener {
         addBtn.addActionListener(this);
         clearBtn.addActionListener(this);
 
-        // Add components
         add(a11); add(a12); add(a21); add(a22);
         add(b11); add(b12); add(b21); add(b22);
         add(r11); add(r12); add(r21); add(r22);
@@ -1171,7 +1153,7 @@ public class Main extends JFrame implements ActionListener {
             JTextField[] fields = {
                 a11,a12,a21,a22, b11,b12,b21,b22, r11,r12,r21,r22
             };
-            for (JTextField f : fields) f.setText("");
+            for (JTextField f: fields) f.setText("");
         }
     }
 
@@ -1234,7 +1216,6 @@ class ShapePanel extends JPanel {
             g.drawPolygon(x, y, 5);
         } 
         else if (shape.equals("Clear")) {
-            // do nothing
         }
     }
 }
@@ -1266,7 +1247,7 @@ public class Main extends JFrame implements ActionListener {
         JButton[] buttons = {b1, b2, b3, b4, b5, b6, b7, b8, b9, b10};
 
         int y = 30;
-        for (JButton b : buttons) {
+        for (JButton b: buttons) {
             b.setBounds(30, y, 130, 30);
             b.addActionListener(this);
             add(b);
@@ -1334,7 +1315,7 @@ class PaintPanel extends JPanel implements MouseMotionListener {
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
 
-        for (DrawPoint p : points) {
+        for (DrawPoint p: points) {
             g.setColor(p.color);
             g.fillOval(p.x, p.y, p.size, p.size);
         }
@@ -1545,8 +1526,8 @@ public class Main {
             }
 
         } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("Array Index Out Of Bounds Exception caught!");
-            System.out.println("You tried to access an invalid index in the array.");
+            System. out.println("Array Index Out Of Bounds Exception caught!");
+            System. out.println("You tried to access an invalid index in the array.");
         }
 
         // Arithmetic Exception
@@ -1558,8 +1539,8 @@ public class Main {
             System.out.println("Result = " + result);
 
         } catch (ArithmeticException e) {
-            System.out.println("Arithmetic Exception caught!");
-            System.out.println("Division by zero is not allowed.");
+            System. out.println("Arithmetic Exception caught!");
+            System. out.println("Division by zero is not allowed.");
         }
 
         System.out.println("Program continues after handling exceptions.");
@@ -1573,7 +1554,6 @@ public class Main {
 ## Program24
 ```
 
-// User-defined exception
 class InvalidAgeException extends Exception {
     public InvalidAgeException(String message) {
         super(message);
@@ -1582,12 +1562,11 @@ class InvalidAgeException extends Exception {
 
 public class Main {
 
-    // Method to check age
     static void checkAge(int age) throws InvalidAgeException {
         if (age < 18 || age > 25) {
             throw new InvalidAgeException("Age must be between 18 and 25.");
         } else {
-            System.out.println("Valid age. Student allowed.");
+            System. out.println("Valid age. Student allowed.");
         }
     }
 
@@ -1598,7 +1577,7 @@ public class Main {
         try {
             checkAge(age);
         } catch (InvalidAgeException e) {
-            System.out.println("Exception caught: " + e.getMessage());
+            System. out.println("Exception caught: " + e.getMessage());
         }
 
         System.out.println("Program continues...");
@@ -1629,7 +1608,7 @@ public class CharFileCopy {
             fr.close();
             fw.close();
 
-            System.out.println("File copied using character stream");
+            System. out.println("File copied using character stream");
         } catch (Exception e) {
             System.out.println(e);
         }
@@ -1652,7 +1631,7 @@ public class ByteFileCopy {
             fis.close();
             fos.close();
 
-            System.out.println("File copied using byte stream");
+            System. out.println("File copied using byte stream");
         } catch (Exception e) {
             System.out.println(e);
         }
@@ -1680,7 +1659,7 @@ abstract class Device {
 
 class Computer extends Device implements Printer {
     void start() {
-        System.out.println("Computer started");
+        System. out.println("Computer started");
     }
 
     public void print() {
