@@ -1434,215 +1434,113 @@ public class Square {
         return a * a;
     }
 }
+import mypack.*;
 
-```
-
-<img width="1354" height="366" alt="image" src="https://github.com/user-attachments/assets/9e1ab945-210d-4425-8f33-77c411d4f122" />
-
-## Program22
-```
-
-import javax.swing.*;
-import java.awt.event.*;
-import java.sql.*;
-
-public class Main extends JFrame implements ActionListener {
-
-    JTextField t1, t2, t4, t5, t6, t7, t8, t9;
-    JRadioButton r1, r2;
-    ButtonGroup bg;
-    JPasswordField p1;
-    JButton submit, reset;
-
-    Connection con;
-    PreparedStatement pst;
-
-    Main() {
-        setTitle("Registration Form (Oracle)");
-        setSize(450, 550);
-        setLayout(null);
-
-        JLabel l1 = new JLabel("Name");
-        l1.setBounds(50, 30, 100, 25);
-
-        JLabel l2 = new JLabel("Father Name");
-        l2.setBounds(50, 70, 100, 25);
-
-        JLabel l3 = new JLabel("Gender");
-        l3.setBounds(50, 110, 100, 25);
-
-        JLabel l4 = new JLabel("Age");
-        l4.setBounds(50, 150, 100, 25);
-
-        JLabel l5 = new JLabel("Address");
-        l5.setBounds(50, 190, 100, 25);
-
-        JLabel l6 = new JLabel("Email");
-        l6.setBounds(50, 230, 100, 25);
-
-        JLabel l7 = new JLabel("Mobile");
-        l7.setBounds(50, 270, 100, 25);
-
-        JLabel l8 = new JLabel("Course");
-        l8.setBounds(50, 310, 100, 25);
-
-        JLabel l9 = new JLabel("Username");
-        l9.setBounds(50, 350, 100, 25);
-
-        JLabel l10 = new JLabel("Password");
-        l10.setBounds(50, 390, 100, 25);
-
-        t1 = new JTextField();
-        t1.setBounds(180, 30, 150, 25);
-
-        t2 = new JTextField();
-        t2.setBounds(180, 70, 150, 25);
-
-        t4 = new JTextField();
-        t4.setBounds(180, 150, 150, 25);
-
-        t5 = new JTextField();
-        t5.setBounds(180, 190, 150, 25);
-
-        t6 = new JTextField();
-        t6.setBounds(180, 230, 150, 25);
-
-        t7 = new JTextField();
-        t7.setBounds(180, 270, 150, 25);
-
-        t8 = new JTextField();
-        t8.setBounds(180, 310, 150, 25);
-
-        t9 = new JTextField();
-        t9.setBounds(180, 350, 150, 25);
-
-        r1 = new JRadioButton("Male");
-        r1.setBounds(180, 110, 70, 25);
-
-        r2 = new JRadioButton("Female");
-        r2.setBounds(250, 110, 80, 25);
-
-        bg = new ButtonGroup();
-        bg.add(r1);
-        bg.add(r2);
-
-        p1 = new JPasswordField();
-        p1.setBounds(180, 390, 150, 25);
-
-        submit = new JButton("Submit");
-        submit.setBounds(80, 440, 100, 30);
-
-        reset = new JButton("Reset");
-        reset.setBounds(220, 440, 100, 30);
-
-        submit.addActionListener(this);
-        reset.addActionListener(this);
-
-        add(l1);
-        add(t1);
-        add(l2);
-        add(t2);
-        add(l3);
-        add(r1);
-        add(r2);
-        add(l4);
-        add(t4);
-        add(l5);
-        add(t5);
-        add(l6);
-        add(t6);
-        add(l7);
-        add(t7);
-        add(l8);
-        add(t8);
-        add(l9);
-        add(t9);
-        add(l10);
-        add(p1);
-        add(submit);
-        add(reset);
-
-        setVisible(true);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    }
-
-    public void actionPerformed(ActionEvent e) {
-
-        if (e.getSource() == submit) {
-            try {
-                Class.forName("oracle.jdbc.OracleDriver");
-
-                con = DriverManager.getConnection(
-                        "jdbc:oracle:thin:@localhost:1521:xe",
-                        "System",
-                        "123");
-
-                String gender = "";
-                if (r1.isSelected()) {
-                    gender = "Male";
-                } else if (r2.isSelected()) {
-                    gender = "Female";
-                }
-
-                String sql = "INSERT INTO registrationn VALUES (reg_seq.NEXTVAL, ?,?,?,?,?,?,?,?,?,?)";
-
-                pst = con.prepareStatement(sql);
-
-                pst.setString(1, t1.getText());
-                pst.setString(2, t2.getText());
-                pst.setString(3, gender);
-                pst.setInt(4, Integer.parseInt(t4.getText()));
-                pst.setString(5, t5.getText());
-                pst.setString(6, t6.getText());
-                pst.setString(7, t7.getText());
-                pst.setString(8, t8.getText());
-                pst.setString(9, t9.getText());
-                pst.setString(10, new String(p1.getPassword()));
-
-                int x = pst.executeUpdate();
-
-                if (x > 0) {
-                    JOptionPane.showMessageDialog(this, "Data Inserted Successfully!");
-                } else {
-                    JOptionPane.showMessageDialog(this, "Insertion Failed!");
-                }
-
-                pst.close();
-                con.close();
-
-            } catch (NumberFormatException ex) {
-                JOptionPane.showMessageDialog(this, "Age must be a number");
-            } catch (Exception ex) {
-                JOptionPane.showMessageDialog(this, ex);
-            }
-        }
-
-        if (e.getSource() == reset) {
-            t1.setText("");
-            t2.setText("");
-            t4.setText("");
-            t5.setText("");
-            t6.setText("");
-            t7.setText("");
-            t8.setText("");
-            t9.setText("");
-            p1.setText("");
-            bg.clearSelection();
-        }
-    }
-
+public class Main {
     public static void main(String[] args) {
-        new Main();
+        Add a = new Add();
+        Sub s = new Sub();
+        Mul m = new Mul();
+        Div d = new Div();
+        Square sq = new Square();
+
+        System.out.println("Addition: " + a.sum(10, 5));
+        System.out.println("Subtraction: " + s.subtract(10, 5));
+        System.out.println("Multiplication: " + m.multiply(10, 5));
+        System.out.println("Division: " + d.divide(10, 5));
+        System.out.println("Square: " + sq.square(5));
     }
 }
 
 ```
 
-<img width="535" height="662" alt="image" src="https://github.com/user-attachments/assets/e6d906cc-9ded-4c5d-974f-cf78b3e627ed" />
+<img width="1354" height="366" alt="image" src="https://github.com/user-attachments/assets/9e1ab945-210d-4425-8f33-77c411d4f122" />
+
 ```
+
+public class Main {
+    public static void main(String[] args) {
+
+        // Array Out of Bounds Exception
+        try {
+            int arr[] = new int[5];
+
+            arr[0] = 10;
+            arr[1] = 20;
+            arr[2] = 30;
+            arr[3] = 40;
+            arr[4] = 50;
+
+            System.out.println("Accessing array elements:");
+            for (int i = 0; i <= 5; i++) {   // intentionally wrong
+                System.out.println("Element at index " + i + " = " + arr[i]);
+            }
+
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Array Index Out Of Bounds Exception caught!");
+            System.out.println("You tried to access an invalid index in the array.");
+        }
+
+        // Arithmetic Exception
+        try {
+            int a = 10;
+            int b = 0;
+
+            int result = a / b;   // will cause exception
+            System.out.println("Result = " + result);
+
+        } catch (ArithmeticException e) {
+            System.out.println("Arithmetic Exception caught!");
+            System.out.println("Division by zero is not allowed.");
+        }
+
+        System.out.println("Program continues after handling exceptions.");
+    }
+}
+
 ```
-<img width="1903" height="895" alt="image" src="https://github.com/user-attachments/assets/47743b94-3b52-45e5-a9e4-52950de329e3" />
+
+<img width="624" height="459" alt="image" src="https://github.com/user-attachments/assets/8006f1e7-bea4-4a61-abff-ba610dcd4d11" />
+
+```
+
+// User-defined exception
+class InvalidAgeException extends Exception {
+    public InvalidAgeException(String message) {
+        super(message);
+    }
+}
+
+public class Main {
+
+    // Method to check age
+    static void checkAge(int age) throws InvalidAgeException {
+        if (age < 18 || age > 25) {
+            throw new InvalidAgeException("Age must be between 18 and 25.");
+        } else {
+            System.out.println("Valid age. Student allowed.");
+        }
+    }
+
+    public static void main(String[] args) {
+
+        int age = 16;   // try changing this (e.g., 20 or 30)
+
+        try {
+            checkAge(age);
+        } catch (InvalidAgeException e) {
+            System.out.println("Exception caught: " + e.getMessage());
+        }
+
+        System.out.println("Program continues...");
+    }
+}
+
+```
+
+<img width="668" height="279" alt="image" src="https://github.com/user-attachments/assets/5432d76f-c543-41e2-add0-b5b25b493317" />
 
 ```
 
 
+`````
