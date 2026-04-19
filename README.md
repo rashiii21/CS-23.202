@@ -82,7 +82,7 @@ class Calculator {
 
     double div(int a, int b) {
         if (b == 0) {
-            System.out.println("Cannot divide by zero");
+            System. out.println("Cannot divide by zero");
             return 0;
         }
         return (double) a / b;
@@ -143,7 +143,7 @@ class GradeCheck {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter marks: ");
+        System. out.print("Enter marks: ");
         int marks = sc.nextInt();
 
         if (marks >= 90) {
@@ -568,7 +568,7 @@ class MatrixOperations {
 
     // Sum of rows
     void sumRows() {
-        System.out.println("Sum of rows:");
+        System. out.println("Sum of rows:");
         for (int i = 0; i < r; i++) {
             int sum = 0;
             for (int j = 0; j < c; j++) {
@@ -580,7 +580,7 @@ class MatrixOperations {
 
     // Sum of columns
     void sumColumns() {
-        System.out.println("Sum of columns:");
+        System. out.println("Sum of columns:");
         for (int j = 0; j < c; j++) {
             int sum = 0;
             for (int i = 0; i < r; i++) {
@@ -663,9 +663,9 @@ class Armstrong {
         }
 
         if (temp == sum)
-            System.out.println("Armstrong Number");
+            System. out.println("Armstrong Number");
         else
-            System.out.println("Not an Armstrong Number");
+            System. out.println("Not an Armstrong Number");
     }
 }
 
@@ -695,9 +695,9 @@ class Palindrome {
         }
 
         if (temp == rev)
-            System.out.println("Palindrome Number");
+            System. out.println("Palindrome Number");
         else
-            System.out.println("Not a Palindrome Number");
+            System. out.println("Not a Palindrome Number");
     }
 }
 
@@ -878,7 +878,7 @@ class ThreadTwo extends Thread {
 
 class ThreadThree extends Thread {
     public void run() {
-        System.out.println("Thread 3: Printing 1 to 100");
+        System. out.println("Thread 3: Printing 1 to 100");
         for (int i = 1; i <= 100; i++) {
             System.out.print(i + " ");
         }
@@ -904,7 +904,7 @@ public class Main {
             t3.join();  
 
         } catch (InterruptedException e) {
-            System.out.println("Exception: " + e);
+            System. out.println("Exception: " + e);
         }
     }
 }
