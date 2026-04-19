@@ -1439,6 +1439,7 @@ public class Square {
 
 <img width="1354" height="366" alt="image" src="https://github.com/user-attachments/assets/9e1ab945-210d-4425-8f33-77c411d4f122" />
 
+## Program22
 ```
 
 import javax.swing.*;
