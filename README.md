@@ -15,7 +15,7 @@ Now, test all four methods in the public static void main. ](#Program1)
 
 [Program 7: Write a Program in Java using OOPs concept for the addition of two distances where each distance is given in metres, centimetres, and millimeters.](#Program7)
 
-[Program 8 : Write a Program in Java using OOPs concept for the addition of two times, where each time is given in hours and minutes.](#Program8)
+[Program 8: Write a Program in Java using OOPs concept for the addition of two times, where each time is given in hours and minutes.](#Program8)
 
 [Program 9 : Write a Program in Java using OOPs concept for the addition of two times, where each time is given in hours, minutes, and seconds.](#Program9)
 
