@@ -236,6 +236,7 @@ class PyramidStars {
         obj.printPyramid();
     }
 }
+
 ```
 
 <img width="318" height="236" alt="image" src="https://github.com/user-attachments/assets/93cb5c24-f2a3-425d-b211-591993996cf2" />
