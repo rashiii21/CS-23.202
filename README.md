@@ -17,7 +17,7 @@ Now, test all four methods in the public static void main. ](#Program1)
 
 [Program 8: Write a Program in Java using OOPs concept for the addition of two times, where each time is given in hours and minutes.](#Program8)
 
-[Program 9 : Write a Program in Java using OOPs concept for the addition of two times, where each time is given in hours, minutes, and seconds.](#Program9)
+[Program 9: Write a Program in Java using OOPs concept for the addition of two times, where each time is given in hours, minutes, and seconds.](#Program9)
 
 [Program 10 : Write a class that has four methods for a 1-dimensional array. (Input, output 1,out2, reverse).](#Program10)
 
