@@ -61,7 +61,7 @@ Now, test all four methods in the public static void main. ](#Program1)
 
 [Program 26:  Inheritance Programs, using interface and abstract classes.](#Program26)
 
-[Program 27 :  Make a registration form with 10 elements and send the data into database (use JDBC connectivity).](#Program27)
+[Program 27:  Make a registration form with 10 elements and send the data to the database (use JDBC connectivity).](#Program27)
 
 
 ## Program1
