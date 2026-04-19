@@ -1594,6 +1594,8 @@ public class Main {
 ## Program25
 ```
 
+//Character-by-Character
+
 import java.io.*;
 
 public class CharFileCopy {
@@ -1617,6 +1619,9 @@ public class CharFileCopy {
         }
     }
 }
+
+//Byte-by-Byte
+
 import java.io.*;
 
 public class ByteFileCopy {
