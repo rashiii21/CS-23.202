@@ -45,7 +45,7 @@ Now, test all four methods in the public static void main. ](#Program1)
 
 [Program 18:  Matrix Addition using swing class.](#Program18)
 
-[Program 19 :  Create one JFrame apply 10 buttons on that after clicking on each button a new structure is created (Circle, oval, rectangle, etc…).](#Program19)
+[Program 19:  Create one JFrame with 10 buttons on it. After clicking on each button, a new structure is created (Circle, oval, rectangle, etc). ](#Program19)
 
 [Program 20 :  Just using mouse event create a frame like paint brush with selection of colour and width.](#Program20)
 
