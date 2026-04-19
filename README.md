@@ -7,7 +7,7 @@ Now, test all four methods in the public static void main. ](#Program1)
 
 [Program 3: Write a Program using if-else to print the grade of input marks.](#Program3)
 
-[Program 4 : Write a Program in Java using objects and classes to get the square of stars for dynamic width and height.](#Program4)
+[Program 4: Write a Program in Java using objects and classes to get the square of stars for dynamic width and height.](#Program4)
 
 [Program 5 : Write a Program in Java using objects and classes to get the pyramid of stars or triangle of stars.](#Program5)
 
