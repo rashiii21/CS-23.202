@@ -1538,7 +1538,7 @@ public class Main {
             arr[4] = 50;
 
             System.out.println("Accessing array elements:");
-            for (int i = 0; i <= 5; i++) {   // intentionally wrong
+            for (int i = 0; i <= 5; i++) {  
                 System.out.println("Element at index " + i + " = " + arr[i]);
             }
 
@@ -1551,7 +1551,7 @@ public class Main {
             int a = 10;
             int b = 0;
 
-            int result = a / b;   // will cause exception
+            int result = a / b;  
             System.out.println("Result = " + result);
 
         } catch (ArithmeticException e) {
@@ -1588,7 +1588,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int age = 16;   // try changing this (e.g., 20 or 30)
+        int age = 16;  
 
         try {
             checkAge(age);
