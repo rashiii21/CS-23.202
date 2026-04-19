@@ -3,7 +3,7 @@
 [Program 1: Create a class with four methods: Addition, Subtraction, Multiplication, and Division.
 Now, test all four methods in the public static void main. ](#Program1)
 
-[Program 2 : Write a Program to test for loop, while loop, do while loop for Problem 1 ](#Program2)
+[Program 2: Write a Program to test for loop, while loop, do while loop for Problem 1 ](#Program2)
 
 [Program 3 : Write a Program using if-else to print the grade of input marks.](#Program3)
 
