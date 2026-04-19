@@ -47,7 +47,7 @@ Now, test all four methods in the public static void main. ](#Program1)
 
 [Program 19:  Create one JFrame with 10 buttons on it. After clicking on each button, a new structure is created (Circle, oval, rectangle, etc). ](#Program19)
 
-[Program 20 :  Just using mouse event create a frame like paint brush with selection of colour and width.](#Program20)
+[Program 20:  Just using mouse events creates a frame like a paint brush with selection of colour and width.](#Program20)
 
 [Program 21 :  Create a package of any 5 classes of your choice and import it.](#Program21)
 
