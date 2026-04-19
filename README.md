@@ -1487,6 +1487,41 @@ public class Main {
 ## Program22
 ```
 
+package mypack;
+
+public class Add {
+    public int sum(int a, int b) {
+        return a + b;
+    }
+}
+package mypack.subpack;
+
+public class Square {
+    public int square(int a) {
+        return a * a;
+    }
+}
+import mypack.Add;
+import mypack.subpack.Square;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Add a = new Add();
+        Square s = new Square();
+
+        System.out.println("Addition: " + a.sum(10, 5));
+        System.out.println("Square: " + s.square(5));
+    }
+}
+
+```
+
+<img width="1918" height="983" alt="image" src="https://github.com/user-attachments/assets/651847c3-7f01-4bbd-8578-50fbc3146fec" />
+
+## Program23
+```
+
 public class Main {
     public static void main(String[] args) {
 
@@ -1531,7 +1566,7 @@ public class Main {
 
 <img width="624" height="459" alt="image" src="https://github.com/user-attachments/assets/8006f1e7-bea4-4a61-abff-ba610dcd4d11" />
 
-## Program23
+## Program24
 ```
 
 // User-defined exception
@@ -1570,7 +1605,7 @@ public class Main {
 
 <img width="668" height="279" alt="image" src="https://github.com/user-attachments/assets/5432d76f-c543-41e2-add0-b5b25b493317" />
 
-## Program24
+## Program25
 ```
 
 import java.io.*;
@@ -1624,7 +1659,7 @@ public class ByteFileCopy {
 
 <img width="1673" height="1002" alt="image" src="https://github.com/user-attachments/assets/8ee10ec4-add6-4146-bdde-083fc33ce1e1" />
 
-## Program25
+## Program26
 ```
 
 interface Printer {
@@ -1662,7 +1697,7 @@ public class Main {
 
 <img width="674" height="239" alt="image" src="https://github.com/user-attachments/assets/3b5969fa-f8b2-467f-9bd9-eba9a1a2da23" />
 
-## Program26
+## Program27
 ```
 
 import javax.swing.*;
