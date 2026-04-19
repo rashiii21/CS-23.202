@@ -39,7 +39,7 @@ Now, test all four methods in the public static void main. ](#Program1)
 
 [Program 15:  Using the concept of multithreading, the output of all three threads must be synchronised (use the join method).](#Program15)
 
-[Program 16 : Addition of 2 numbers using swing.](#Program16)
+[Program 16: Addition of 2 numbers using Swing.](#Program16)
 
 [Program 17 :  Make one calculator in swing.](#Program17)
 
