@@ -57,7 +57,7 @@ Now, test all four methods in the public static void main. ](#Program1)
 
 [Program 24:  To test the range of age of one student, write a program using a user-defined exception.](#Program24)
 
-[Program 25 : File Handling Programs (given in the PPT).](#Program25)
+[Program 25: File Handling Programs (given in the PPT).](#Program25)
 
 [Program 26 :  Inheritance Programs, using interface and abstract classes.](#Program26)
 
