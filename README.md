@@ -1,7 +1,7 @@
 ## INDEX
 
-[Program 1: Create a class with four methods: Addition, Subtraction, Multiplication, Division.]
-Now, test all four methods in the public static void main. (#Program1)
+[Program 1: Create a class with four methods: Addition, Subtraction, Multiplication, and Division.
+Now, test all four methods in the public static void main. ](#Program1)
 
 [Program 2 : Write a Program to test for loop, while loop, do while loop for Problem 1 ](#Program2)
 
