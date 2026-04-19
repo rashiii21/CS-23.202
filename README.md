@@ -290,6 +290,7 @@ class Distance {
 <img width="519" height="253" alt="image" src="https://github.com/user-attachments/assets/0059438c-6c95-455b-8182-2986af72bb90" />
 
 ## Program7
+
 ```
 import java.util.Scanner;
 
