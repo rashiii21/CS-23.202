@@ -25,7 +25,7 @@ Now, test all four methods in the public static void main. ](#Program1)
 
 [Program 12a:  Collect the code from the internet for any five programs in the C language and convert them to Java. (Factorial).](#Program12a)
 
-[Program 12b :  Collect the code from the internet for any five programs of the C language and convert them to Java. (Armstrong).](#Program12b)
+[Program 12b:  Collect the code from the internet for any five programs of the C language and convert them to Java. (Armstrong).](#Program12b)
 
 [Program 12c :  Collect the code from the internet for any five programs of the C language and convert them to Java. (Palindrome).](#Program12c)
 
