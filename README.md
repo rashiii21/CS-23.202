@@ -1492,6 +1492,8 @@ public class Square {
 import mypack.Add;
 import mypack.subpack.Square;
 
+//Main
+
 public class Main {
     public static void main(String[] args) {
 
