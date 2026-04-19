@@ -52,7 +52,8 @@
 
 [Program 22:  Create one package and a sub-package, import and test it.](#Program22)
 
-[Program 23:  Create one small array of size 5, apply array out of bounds exception using try-catch, give a proper message in catch, and demonstrate the exception exactly in the same fashion. Demonstrate arithmetic exception also. ](#Program23)
+[Program 23:  Create one small array of size 5, apply array out of bounds exception using try-catch, give a proper message in catch, and demonstrate the exception exactly in the same fashion. 
+Demonstrate arithmetic exception also. ](#Program23)
 
 [Program 24:  To test the range of age of one student, write a program using a user-defined exception.](#Program24)
 
@@ -105,6 +106,7 @@ class Calculator {
 <img width="338" height="177" alt="image" src="https://github.com/user-attachments/assets/483771ac-eb50-40d1-bea8-63c84051aef9" />
 
 ## Program2
+
 ```
 
 class LoopTest {
@@ -136,6 +138,7 @@ class LoopTest {
 <img width="375" height="561" alt="image" src="https://github.com/user-attachments/assets/ed7bff77-d529-4bfe-bdd8-c765e47501e0" />
 
 ## Program3
+
 ```
 
 import java.util.Scanner;
@@ -167,7 +170,9 @@ class GradeCheck {
 <img width="317" height="171" alt="image" src="https://github.com/user-attachments/assets/1a6e9383-c9b5-48e4-a041-8a3023adab87" />
 
 ## Program4
+
 ```
+
 import java.util.Scanner;
 
 class SquareStars {
@@ -202,7 +207,9 @@ class SquareStars {
 <img width="312" height="383" alt="image" src="https://github.com/user-attachments/assets/4b8d5cb9-f32f-4abd-945a-f3f45c226467" />
 
 ## Program5
+
 ```
+
 import java.util.Scanner;
 
 class PyramidStars {
@@ -242,7 +249,9 @@ class PyramidStars {
 <img width="318" height="236" alt="image" src="https://github.com/user-attachments/assets/93cb5c24-f2a3-425d-b211-591993996cf2" />
 
 ## Program6
+
 ```
+
 import java.util.Scanner;
 
 class Distance {
@@ -292,6 +301,7 @@ class Distance {
 ## Program7
 
 ```
+
 import java.util.Scanner;
 
 class Distance {
@@ -348,7 +358,9 @@ class Distance {
 <img width="526" height="325" alt="image" src="https://github.com/user-attachments/assets/da13122a-6a6a-4c7c-9152-98ea1afae6ce" />
 
 ## Program8
+
 ```
+
 import java.util.Scanner;
 
 class Time {
@@ -396,7 +408,9 @@ class Time {
 <img width="421" height="286" alt="image" src="https://github.com/user-attachments/assets/7eea1f29-1c49-4b34-8156-10a520f18a78" />
 
 ## Program9
+
 ```
+
 import java.util.Scanner;
 
 class Time {
@@ -452,7 +466,9 @@ class Time {
 <img width="513" height="307" alt="image" src="https://github.com/user-attachments/assets/9f5d61e8-7f95-46e7-b5a9-06e6ad60202e" />
 
 ## Program10
+
 ```
+
 import java.util.Scanner;
 
 class OneDArray {
@@ -510,7 +526,9 @@ class OneDArray {
 <img width="429" height="320" alt="image" src="https://github.com/user-attachments/assets/46644926-4dd2-4d61-a70a-6876434b58fb" />
 
 ## Program11
+
 ```
+
 import java.util.Scanner;
 
 class MatrixOperations {
@@ -609,6 +627,7 @@ class MatrixOperations {
 <img width="489" height="624" alt="image" src="https://github.com/user-attachments/assets/3cc112d5-027d-48f5-ba81-4296038f6c66" />
 
 ## Program12a
+
 ```
 
 import java.util.Scanner;
@@ -634,6 +653,7 @@ class Factorial {
 <img width="374" height="136" alt="image" src="https://github.com/user-attachments/assets/fd13a424-ace1-4121-806b-04a4c5a6b334" />
 
 ## Program12b
+
 ```
 
 import java.util.Scanner;
@@ -666,6 +686,7 @@ class Armstrong {
 <img width="408" height="152" alt="image" src="https://github.com/user-attachments/assets/5581de92-4082-465c-be22-c0cbced22333" />
 
 ## Program12c
+
 ```
 
 import java.util.Scanner;
@@ -698,6 +719,7 @@ class Palindrome {
 <img width="463" height="141" alt="image" src="https://github.com/user-attachments/assets/d2924a7e-9758-4123-ad7d-3baf239ff509" />
 
 ## Program12d
+
 ```
 
 import java.util.Scanner;
@@ -727,6 +749,7 @@ class Fibonacci {
 <img width="924" height="157" alt="image" src="https://github.com/user-attachments/assets/915217e5-358f-4d8e-9474-d8476acf0675" />
 
 ## Program12e
+
 ```
 
 class Pattern {
@@ -746,6 +769,7 @@ class Pattern {
 <img width="483" height="210" alt="image" src="https://github.com/user-attachments/assets/d64f8705-0860-4a5c-85e8-a61619f95114" />
 
 ## Program13
+
 ```
 
 class PrintOneToHundred {
@@ -795,6 +819,7 @@ public class Main {
 <img width="919" height="564" alt="image" src="https://github.com/user-attachments/assets/8909e3a1-b1ca-4d6c-907f-a1fe2873f4f9" />
 
 ## Program14
+
 ```
 
 class ThreadOne extends Thread {
@@ -845,6 +870,7 @@ public class Main {
 <img width="908" height="545" alt="image" src="https://github.com/user-attachments/assets/abc936d1-3470-448c-b3b7-013bd14acc1a" />
 
 ## Program15
+
 ```
 
 class ThreadOne extends Thread {
@@ -905,6 +931,7 @@ public class Main {
 <img width="928" height="582" alt="image" src="https://github.com/user-attachments/assets/8f17bbfe-295f-4949-8c45-6dfea3954e18" />
 
 ## Program16
+
 ```
 
 import javax.swing.*;
@@ -968,6 +995,7 @@ public class Main extends JFrame implements ActionListener {
 <img width="550" height="431" alt="image" src="https://github.com/user-attachments/assets/d1466150-90f4-47ab-b39b-cd335e6589eb" />
 
 ## Program17
+
 ```
 
 import javax.swing.*;
@@ -1172,6 +1200,7 @@ public class Main extends JFrame implements ActionListener {
 <img width="514" height="394" alt="image" src="https://github.com/user-attachments/assets/bba719ab-60c3-4a54-955b-358a772f20cd" />
 
 ## Program19
+
 ```
 
 import javax.swing.*;
@@ -1280,6 +1309,7 @@ public class Main extends JFrame implements ActionListener {
 <img width="859" height="617" alt="image" src="https://github.com/user-attachments/assets/68578219-3a34-4881-a309-959984432488" />
 
 ## Program20
+
 ```
 
 import javax.swing.*;
@@ -1417,6 +1447,7 @@ public class Main extends JFrame implements ActionListener {
 <img width="988" height="745" alt="image" src="https://github.com/user-attachments/assets/d35ccb30-46a3-483a-b07f-e5e12e94dd55" />
 
 ## Program21
+
 ```
 
 package mypack;
@@ -1480,6 +1511,7 @@ public class Main {
 <img width="1354" height="366" alt="image" src="https://github.com/user-attachments/assets/9e1ab945-210d-4425-8f33-77c411d4f122" />
 
 ## Program22
+
 ```
 
 package mypack;
@@ -1517,6 +1549,7 @@ public class Main {
 <img width="1918" height="983" alt="image" src="https://github.com/user-attachments/assets/651847c3-7f01-4bbd-8578-50fbc3146fec" />
 
 ## Program23
+
 ```
 
 public class Main {
@@ -1562,6 +1595,7 @@ public class Main {
 <img width="624" height="459" alt="image" src="https://github.com/user-attachments/assets/8006f1e7-bea4-4a61-abff-ba610dcd4d11" />
 
 ## Program24
+
 ```
 
 class InvalidAgeException extends Exception {
@@ -1599,6 +1633,7 @@ public class Main {
 <img width="668" height="279" alt="image" src="https://github.com/user-attachments/assets/5432d76f-c543-41e2-add0-b5b25b493317" />
 
 ## Program25
+
 ```
 
 //Character-by-Character
@@ -1658,6 +1693,7 @@ public class ByteFileCopy {
 <img width="1673" height="1002" alt="image" src="https://github.com/user-attachments/assets/8ee10ec4-add6-4146-bdde-083fc33ce1e1" />
 
 ## Program26
+
 ```
 
 interface Printer {
@@ -1696,6 +1732,7 @@ public class Main {
 <img width="674" height="239" alt="image" src="https://github.com/user-attachments/assets/3b5969fa-f8b2-467f-9bd9-eba9a1a2da23" />
 
 ## Program27
+
 ```
 
 import javax.swing.*;
